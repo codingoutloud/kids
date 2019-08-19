@@ -16,6 +16,9 @@
 * https://primes.utm.edu/curios/page.php/8616460799.html
 * https://www.youtube.com/watch?v=qiNcEguuFSA
 
+## Hardware
+* https://learn.adafruit.com/introducing-circuit-playground/overview
+
 ## skulpt
 
 import turtle
@@ -32,6 +35,15 @@ for c in ['teal', 'green', 'cyan', 'turquoise',
     t.color(c)
     t.forward(75)
     t.left(45)
-    
-   
+ 
+# Python
+
+import math
+
+num = 11
+sqrtnum = int(math.sqrt(num))
+for i in range(2, sqrtnum+1):
+       print (i, 'x', int(num/i), '=', num)
+
+
 
